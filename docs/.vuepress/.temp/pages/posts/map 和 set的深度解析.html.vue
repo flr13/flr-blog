@@ -1,0 +1,53 @@
+<template><div><h1 id="map-和-set的深度解析" tabindex="-1"><a class="header-anchor" href="#map-和-set的深度解析" aria-hidden="true">#</a> map 和 set的深度解析</h1>
+<p><strong>Set是集合的数据结构   而  Map是字典的数据结构</strong></p>
+<p>那什么是集合和字典呢</p>
+<ul>
+<li>
+<p>集合</p>
+<blockquote>
+<p>集合，是由一堆无序的、相关联的，且不重复的内存结构【数学中称为元素】组成的组合</p>
+</blockquote>
+</li>
+<li>
+<p>字典</p>
+<blockquote>
+<p>字典（dictionary）是一些元素的集合。每个元素有一个称作key 的域，不同元素的key 各不相同</p>
+</blockquote>
+</li>
+</ul>
+<p>那么集合和字典又有什么区别呢？</p>
+<ul>
+<li>​    共同点：集合、字典都可以存储不重复的值</li>
+<li>不同点：集合是以[值，值]的形式存储元素，字典是以[键，值]的形式存在</li>
+</ul>
+<h2 id="set和map使用" tabindex="-1"><a class="header-anchor" href="#set和map使用" aria-hidden="true">#</a> Set和Map使用</h2>
+<blockquote>
+<p>Set 定义: <code v-pre>Set</code> 对象允许你存储任何类型的唯一值，无论是原始值或者是对象引用，<code v-pre>Set</code>对象是值的集合，你可以按照插入的顺序迭代它的元素。 <code v-pre>Set</code>中的元素只会出现一次，<strong>即 <code v-pre>Set</code> 中的元素是唯一的</strong></p>
+<p>Map 对象保存键值对，并且能够记住键的原始插入顺序。任何值(对象或者原始值) 都可以作为一个键或一个值。一个Map对象在迭代时会根据对象中元素的插入顺序来进行 — 一个 for...of 循环在每次迭代后会返回一个形式为[key，value]的数组</p>
+</blockquote>
+<p>基本使用</p>
+<ol>
+<li>
+<p>语法</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> map <span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Map</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">let</span> set<span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>操作方法</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">set</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> value<span class="token punctuation">)</span><span class="token operator">:</span> 向 Map 中加入或更新键值对
+<span class="token function">get</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span><span class="token operator">:</span> 读取 key 对用的值，如果没有，返回 <span class="token keyword">undefined</span>
+<span class="token function">has</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span><span class="token operator">:</span> 某个键是否在 Map 对象中，在返回 <span class="token boolean">true</span> 否则返回 <span class="token boolean">false</span>
+<span class="token keyword">delete</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span><span class="token operator">:</span> 删除某个键，返回 <span class="token boolean">true</span><span class="token punctuation">,</span> 如果删除失败返回 <span class="token boolean">false</span>
+<span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> 删除所有元素
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>遍历方法</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">keys</span><span class="token punctuation">(</span><span class="token punctuation">)</span>：返回键名的遍历器
+<span class="token function">values</span><span class="token punctuation">(</span><span class="token punctuation">)</span>：返回键值的遍历器
+<span class="token function">entries</span><span class="token punctuation">(</span><span class="token punctuation">)</span>：返回所有成员的遍历器
+<span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">)</span>：遍历 Map 的所有成员
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ol>
+</div></template>
+
+

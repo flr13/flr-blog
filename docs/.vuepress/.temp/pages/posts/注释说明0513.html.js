@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-3b76b6d2\",\"path\":\"/posts/%E6%B3%A8%E9%87%8A%E8%AF%B4%E6%98%8E0513.html\",\"title\":\"js注释说明\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"js注释\",\"slug\":\"js注释\",\"link\":\"#js注释\",\"children\":[]},{\"level\":2,\"title\":\"JSDoc  注释\",\"slug\":\"jsdoc-注释\",\"link\":\"#jsdoc-注释\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"posts/注释说明0513.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

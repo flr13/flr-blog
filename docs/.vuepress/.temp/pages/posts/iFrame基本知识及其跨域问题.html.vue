@@ -1,0 +1,135 @@
+<template><div><h1 id="iframe知识及其跨域问题" tabindex="-1"><a class="header-anchor" href="#iframe知识及其跨域问题" aria-hidden="true">#</a> iframe知识及其跨域问题</h1>
+<h3 id="iframe标签" tabindex="-1"><a class="header-anchor" href="#iframe标签" aria-hidden="true">#</a> iframe标签</h3>
+<p>https://blog.csdn.net/weixin_44733660/article/details/117048195?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169424923016800185820005%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169424923016800185820005&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-117048195-null-null.142</p>
+<ol>
+<li>
+<p>iframe基本概念</p>
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>iframe</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>xxxx<span class="token punctuation">'</span></span><span class="token punctuation">/></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>
+<p>属性介绍</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>allow</td>
+<td>允许特定功能的列表，如fullscreen，geolocation等</td>
+</tr>
+<tr>
+<td>allowfullscreen</td>
+<td>指定是否允许在iframe中使用全屏模式</td>
+</tr>
+<tr>
+<td>allowpaymentrequest</td>
+<td>指定是否允许在iframe中进行支付请求</td>
+</tr>
+<tr>
+<td>allowtransparency</td>
+<td>指定iframe是否可以是透明的</td>
+</tr>
+<tr>
+<td>class</td>
+<td>为iframe定义一个或多个类名</td>
+</tr>
+<tr>
+<td>frameborder</td>
+<td>指定是否在iframe周围显示边框</td>
+</tr>
+<tr>
+<td>height</td>
+<td>指定iframe的高度</td>
+</tr>
+<tr>
+<td>importance</td>
+<td>指定iframe对页面内容的重要性</td>
+</tr>
+<tr>
+<td>loading</td>
+<td>指定iframe加载时的行为</td>
+</tr>
+<tr>
+<td>name</td>
+<td>为iframe定义一个名称</td>
+</tr>
+<tr>
+<td>referrerpolicy</td>
+<td>指定如何发送referer HTTP标头</td>
+</tr>
+<tr>
+<td>sandbox</td>
+<td>启用iframe的沙盒模式，提高安全性</td>
+</tr>
+<tr>
+<td>src</td>
+<td><strong>指定要在iframe中显示的文档的URL</strong></td>
+</tr>
+<tr>
+<td>srcdoc</td>
+<td>在iframe中嵌入HTML代码而不是外部文档</td>
+</tr>
+<tr>
+<td>style</td>
+<td>定义iframe的CSS样式</td>
+</tr>
+<tr>
+<td>title</td>
+<td>为iframe定义一个标题</td>
+</tr>
+<tr>
+<td>width</td>
+<td>指定iframe的宽度</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>sandbox配置介绍</p>
+</li>
+<li>
+<p>在 iframe 中获取父级内容</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>获取上一级 window 对象
+通过 window.parent 获取上一级 window 对象（iframe 可以有多层使用）</p>
+</li>
+<li>
+<p>获取最顶级容器的 window 对象
+通过 window.top 获取 window 对象（即打开页面时的文档）</p>
+</li>
+<li>
+<p>返回自身 window 对象
+通过 window.self 返回自身 window 对象</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>window<span class="token punctuation">.</span>parent <span class="token comment">//如果还是iframe则是该iframe的window对象</span>
+window<span class="token punctuation">.</span>top <span class="token comment">// 获取最顶级容器的window对象，即，就是你打开页面的文档</span>
+window<span class="token punctuation">.</span>self <span class="token comment">// 返回自身window的引用。可以理解 window===window.self</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ul>
+<h3 id="何为跨域" tabindex="-1"><a class="header-anchor" href="#何为跨域" aria-hidden="true">#</a> 何为跨域</h3>
+<h5 id="跨域的原因-浏览器的同源策略" tabindex="-1"><a class="header-anchor" href="#跨域的原因-浏览器的同源策略" aria-hidden="true">#</a> 跨域的原因：浏览器的同源策略</h5>
+<h5 id="什么是同源策略呢" tabindex="-1"><a class="header-anchor" href="#什么是同源策略呢" aria-hidden="true">#</a> 什么是同源策略呢？</h5>
+<p>出于安全考虑，默认在网页中，使用JS发送请求，请求的服务器和当前所在网页的服务器必须一样，<strong>即两个请求地址的 协议、域名、端口必须一致。</strong></p>
+<p>Origin: &lt; scheme &gt; “/” <host> [ “:” &lt; port &gt; ],origin由用于访问它的URL的<strong>scheme（协议）、port（端口）、host（IP或域名</strong>）</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>协议相同  http https
+域名相同  www.onlineclass.net
+端口相同  <span class="token number">80</span>  <span class="token number">81</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在浏览器访问的时候，以上三者任意一个不同，都是跨域。</p>
+<h3 id="如何解决iframe跨域" tabindex="-1"><a class="header-anchor" href="#如何解决iframe跨域" aria-hidden="true">#</a> 如何解决Iframe跨域</h3>
+<ul>
+<li>使用同源策略：将 iframe 的 src 属性设置为与父页面同源的 URL。这是最简单的解决方案，但限制较大，不适用于不同域的情况。</li>
+<li><strong>使用代理页面：在父页面的同域下创建一个代理页面，该页面与 iframe 的目标域同源，然后在代理页面中请求目标资源，并将请求结果传递回父页面。这样可以绕过跨域限制，但需要后端协助。</strong></li>
+<li>跨文档消息（Cross-document Messaging）：使用 postMessage API，在父页面和 iframe 之间进行消息通信。这样可以安全地在不同域之间传递数据，但需要在父页面和 iframe 中编写消息监听和处理的逻辑。</li>
+<li>CORS（跨域资源共享）：如果你对服务器端有控制权，可以在服务器端设置 CORS 头，允许特定来源的页面访问资源。这是一种较为常用的跨域解决方案。</li>
+<li>JSONP（JSON with Padding）：如果目标资源是 JSON 数据，你可以通过 JSONP 的方式来获取数据，JSONP 是一种跨域请求数据的方法。</li>
+<li><strong>nginx配置代理：如果想在当前系统里嵌入其他系统链接，可以在nginx中，将请求的接口代理到对应的服务器下，实现接口的正常调用。</strong></li>
+</ul>
+<p><img src="@source/posts/C:/Users/spurs/AppData/Roaming/Typora/typora-user-images/1694570410196.png" alt="1694570410196"></p>
+</div></template>
+
+

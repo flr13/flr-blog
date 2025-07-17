@@ -1,0 +1,24 @@
+{
+  "name": "flr-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "npm run docs:build && gh-pages -d docs/.vuepress/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-beta.63",
+    "@vuepress/bundler-webpack": "2.0.0-beta.63",
+    "@vuepress/theme-default": "2.0.0-beta.63",
+    "gh-pages": "^6.3.0",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "vuepress": "2.0.0-beta.63"
+  }
+}

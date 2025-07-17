@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-11bf5462\",\"path\":\"/posts/qiankun.html\",\"title\":\"QIANKUN-TEMPLATE\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"微前端主功能\",\"slug\":\"微前端主功能\",\"link\":\"#微前端主功能\",\"children\":[]},{\"level\":2,\"title\":\"什么是微前端\",\"slug\":\"什么是微前端\",\"link\":\"#什么是微前端\",\"children\":[]},{\"level\":2,\"title\":\"QIANKUN\",\"slug\":\"qiankun\",\"link\":\"#qiankun\",\"children\":[{\"level\":3,\"title\":\"主应用\",\"slug\":\"主应用\",\"link\":\"#主应用\",\"children\":[]},{\"level\":3,\"title\":\"子应用\",\"slug\":\"子应用\",\"link\":\"#子应用\",\"children\":[]}]},{\"level\":2,\"title\":\"项目运行\",\"slug\":\"项目运行\",\"link\":\"#项目运行\",\"children\":[]},{\"level\":2,\"title\":\"动态路由（动态菜单）\",\"slug\":\"动态路由-动态菜单\",\"link\":\"#动态路由-动态菜单\",\"children\":[]},{\"level\":2,\"title\":\"本地路由配置\",\"slug\":\"本地路由配置\",\"link\":\"#本地路由配置\",\"children\":[]},{\"level\":2,\"title\":\"工具文档\",\"slug\":\"工具文档\",\"link\":\"#工具文档\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"posts/qiankun.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -31,6 +31,7 @@ const generateNavbar = () => {
 };
 
 export default defineUserConfig({
+  base: '/flr-blog',
    title: 'Flr的技术博客',
    theme: defaultTheme({
     // 添加全局作者配置

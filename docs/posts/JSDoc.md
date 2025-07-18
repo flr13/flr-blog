@@ -63,7 +63,7 @@ npm install -g jsdoc
 
 常用关键字
 
-![1652428014959](C:\Users\spurs\AppData\Roaming\Typora\typora-user-images\1652428014959.png)
+![1652428014959](../images/1652428014959.png)
 
 ```js
   /**

@@ -1,11 +1,3 @@
-<!--
- * @Author: 吴莉蓉 wulr@eastcom-sw.com
- * @Date: 2025-07-17 16:42:29
- * @LastEditors: 吴莉蓉 wulr@eastcom-sw.com
- * @LastEditTime: 2025-07-18 10:47:11
- * @FilePath: \flr-blog\docs\posts\iFrame基本知识及其跨域问题.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 ---
 title: iFrame基本知识及其跨域问题
 date: '2025-07-18'
@@ -92,7 +84,7 @@ Origin: &lt; scheme &gt; “/” &lt;host&gt; [ “:” &lt; port &gt; ],origin�
 - JSONP（JSON with Padding）：如果目标资源是 JSON 数据，你可以通过 JSONP 的方式来获取数据，JSONP 是一种跨域请求数据的方法。
 - **nginx配置代理：如果想在当前系统里嵌入其他系统链接，可以在nginx中，将请求的接口代理到对应的服务器下，实现接口的正常调用。**
 
-![1694570410196](C:\Users\spurs\AppData\Roaming\Typora\typora-user-images\1694570410196.png)
+![1694570410196](../images/1694570410196.png)
 
 
 

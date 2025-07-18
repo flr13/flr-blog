@@ -6,21 +6,21 @@ tags: []
 ---
 # 实用性的网站
 
-1.  在线工具汇总 https://tool.lu/ ![](C:\Users\spurs\AppData\Roaming\Typora\typora-user-images\1653296554205.png)
+1.  在线工具汇总 https://tool.lu/ ![](../images/1653296554205.png)
 
    
 
-2. 前端导航 https://www.kwgg2020.com/![](C:\Users\spurs\AppData\Roaming\Typora\typora-user-images\1653296622363.png)
+2. 前端导航 https://www.kwgg2020.com/![](../images/1653296622363.png)
 
    
 
-3.  极客导航-程序员自己的导航   http://www.jikedaohang.com/![](C:\Users\spurs\AppData\Roaming\Typora\typora-user-images\1653296814586.png)
+3.  极客导航-程序员自己的导航   http://www.jikedaohang.com/![](../images/1653296814586.png)
 
    
 
 4. 只有你想不到，没有你搜不到 —— 果汁导航 http://guozhivip.com/
 
-   ![](C:\Users\spurs\AppData\Roaming\Typora\typora-user-images\1653296432787.png) 
+   ![](../images/1653296432787.png) 
 
 5. https://adzhp.net/ 导航
 

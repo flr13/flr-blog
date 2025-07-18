@@ -31,7 +31,7 @@ tags: []
 
    >   容器里面的水平区域称为"行"（row），垂直区域称为"列"（column） 
 
-   ![1708669902041](C:\Users\spurs\AppData\Roaming\Typora\typora-user-images\1708669902041.png)
+   ![1708669902041](../images/1708669902041.png)
 
 3. #####  网格线和单元格
 

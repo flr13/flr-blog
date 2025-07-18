@@ -142,7 +142,7 @@ cnpm install node-sass --save （使用淘宝镜像安装node-sass）
 
 6. 个人分支合并到主分支，远端个人分支消失   ，git pull 提示错误
 
-   ![1651714169877](C:\Users\spurs\AppData\Roaming\Typora\typora-user-images\1651714169877.png)
+   ![1651714169877](../images/1651714169877.png)
 
    ```sh
    git checkout 主分支  #切回主分支
@@ -307,4 +307,4 @@ cnpm install node-sass --save （使用淘宝镜像安装node-sass）
     JSON.stringify(obj) ：接受一个 JavaScript 对象并将其转换为一个 JSON 字符串
     ```
 
-12. 
+12.

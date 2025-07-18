@@ -1,0 +1,13 @@
+image: node:18
+
+pages:
+  stage: deploy
+  script:
+    - npm install
+    - npm run docs:build
+    - mv docs/.vuepress/dist public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main  # Replace with your main branch name

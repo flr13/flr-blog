@@ -1,0 +1,14 @@
+export const themeData = JSON.parse("{\"author\":\"flr\",\"contributors\":[\"flr\"],\"pageMeta\":{\"author\":true,\"contributors\":true},\"navbar\":[{\"text\":\"首页\",\"link\":\"/\"},{\"text\":\"文章分类\",\"children\":[{\"text\":\"未分类\",\"link\":\"/posts/?category=未分类\"},{\"text\":\"JavaScript\",\"link\":\"/posts/?category=JavaScript\"},{\"text\":\"工具\",\"link\":\"/posts/?category=工具\"},{\"text\":\"CSS\",\"link\":\"/posts/?category=CSS\"},{\"text\":\"框架\",\"link\":\"/posts/?category=框架\"},{\"text\":\"其他\",\"link\":\"/posts/?category=其他\"}]},{\"text\":\"关于\",\"link\":\"/about/\"}],\"sidebar\":{\"/posts/\":[{\"text\":\"未分类\",\"children\":[\"/posts/cascader属性.md\",\"/posts/dialog.md\",\"/posts/el-cascader组件使用说明.md\",\"/posts/el-select +Vue .md\",\"/posts/fatch.md\",\"/posts/iFrame基本知识及其跨域问题.md\",\"/posts/jsAnswer.md\",\"/posts/Microfront-end.md\",\"/posts/mixins.md\",\"/posts/npm-QW.md\",\"/posts/q&a0212.md\",\"/posts/review.md\",\"/posts/SEE-use.md\",\"/posts/solt-use.md\",\"/posts/SSO.md\",\"/posts/TypeScript.md\",\"/posts/vue-Prop-use.md\",\"/posts/vue_form_add.md\",\"/posts/vue有关的notes.md\",\"/posts/vue通信方式.md\",\"/posts/workSum.md\",\"/posts/注释说明0513.md\"]},{\"text\":\"JavaScript\",\"children\":[\"/posts/asyn  await.md\",\"/posts/js运算符及其优先级.md\",\"/posts/map - set的Deep-sum.md\",\"/posts/事件循环（Event LOOP).md\"]},{\"text\":\"工具\",\"children\":[\"/posts/babel配置.md\",\"/posts/JSDoc.md\",\"/posts/Nginx.md\",\"/posts/nvm-use.md\",\"/posts/yarn link.md\"]},{\"text\":\"CSS\",\"children\":[\"/posts/CSS Grid 网格布局.md\",\"/posts/CSS常见布局和样式.md\",\"/posts/Flex布局.md\"]},{\"text\":\"框架\",\"children\":[\"/posts/qiankun.md\",\"/posts/react.md\",\"/posts/Vue3.md\",\"/posts/vuex 状态管理.md\",\"/posts/vue父子组件通信.md\"]},{\"text\":\"其他\",\"children\":[\"/posts/web-Http.md\",\"/posts/webSorket.md\",\"/posts/文件上传与JSON数据传输方案.md\",\"/posts/终端常用命令.md\"]}]},\"locales\":{\"/\":{\"selectLanguageName\":\"English\"}},\"colorMode\":\"auto\",\"colorModeSwitch\":true,\"logo\":null,\"repo\":null,\"selectLanguageText\":\"Languages\",\"selectLanguageAriaLabel\":\"Select language\",\"sidebarDepth\":2,\"editLink\":true,\"editLinkText\":\"Edit this page\",\"lastUpdated\":true,\"lastUpdatedText\":\"Last Updated\",\"contributorsText\":\"Contributors\",\"notFound\":[\"There's nothing here.\",\"How did we get here?\",\"That's a Four-Oh-Four.\",\"Looks like we've got some broken links.\"],\"backToHome\":\"Take me home\",\"openInNewWindow\":\"open in new window\",\"toggleColorMode\":\"toggle color mode\",\"toggleSidebar\":\"toggle sidebar\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
+}

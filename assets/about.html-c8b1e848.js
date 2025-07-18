@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-22a39d25","path":"/about.html","title":"关于我","lang":"en-US","frontmatter":{"title":"关于我","date":"2025-07-18","author":"flr"},"headers":[],"git":{"updatedTime":1752807984000,"contributors":[{"name":"吴莉蓉","email":"wulr@eastcom-sw.com","commits":1}]},"filePathRelative":"about.md"}');export{t as data};

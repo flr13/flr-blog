@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1df1b5ba","path":"/posts/web-Http.html","title":"web-Http","lang":"en-US","frontmatter":{"title":"web-Http","date":"2025-07-18","category":"其他","tags":[]},"headers":[],"git":{"updatedTime":1752823864000,"contributors":[{"name":"吴莉蓉","email":"wulr@eastcom-sw.com","commits":2}]},"filePathRelative":"posts/web-Http.md"}');export{t as data};

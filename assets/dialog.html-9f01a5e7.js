@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-14ef7b08","path":"/posts/dialog.html","title":"dialog","lang":"en-US","frontmatter":{"title":"dialog","date":"2025-07-18","category":"ui-组件","tags":[]},"headers":[],"git":{"updatedTime":1752827171000,"contributors":[{"name":"吴莉蓉","email":"wulr@eastcom-sw.com","commits":3}]},"filePathRelative":"posts/dialog.md"}');export{t as data};

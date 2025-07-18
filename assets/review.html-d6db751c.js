@@ -1,1 +1,0 @@
-import{_ as l,o as r,c as t,a as e}from"./app-fb9de7e1.js";const o={};function s(a,n){return r(),t("div",null,n[0]||(n[0]=[e("p",null,"2024年",-1),e("p",null,"技术 （js vue qiankun)",-1),e("p",null,"定制化需求：动态表单、",-1)]))}const u=l(o,[["render",s],["__file","review.html.vue"]]);export{u as default};

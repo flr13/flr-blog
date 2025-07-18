@@ -1,7 +1,7 @@
 ---
 title: TypeScript
 date: '2025-07-18'
-category: 未分类
+category: 框架
 tags: []
 ---
 # TypeScript

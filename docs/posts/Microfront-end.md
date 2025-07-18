@@ -1,7 +1,7 @@
 ---
 title: Microfront-end
 date: '2025-07-18'
-category: 未分类
+category: 框架
 tags: []
 ---
 当开发一个项目时，使用qiankun微前端框架可以帮助我们构建出高度可扩展的前端应用，允许不同的团队独立开发和维护各自的微前端应用。以下是我参与的一个项目经历，使用了qiankun微前端框架。

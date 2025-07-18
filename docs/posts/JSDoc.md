@@ -1,7 +1,7 @@
 ---
 title: JSDoc
 date: '2025-07-18'
-category: 工具
+category: JavaScript
 tags: []
 ---
 # js注释说明

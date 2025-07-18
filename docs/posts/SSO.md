@@ -1,7 +1,7 @@
 ---
 title: SSO
 date: '2025-07-18'
-category: 未分类
+category: 其他
 tags: []
 ---
 ##  单点登陆

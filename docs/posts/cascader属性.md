@@ -1,7 +1,7 @@
 ---
 title: cascader属性
 date: '2025-07-18'
-category: 未分类
+category: ui-组件
 tags: []
 ---
 # Vue中使用el-cascader组件实现数据回显

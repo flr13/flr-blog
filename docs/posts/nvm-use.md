@@ -1,7 +1,7 @@
 ---
 title: nvm-use
 date: '2025-07-18'
-category: 工具
+category: NPM
 tags: []
 ---
  # nvm 安装、配置与使用指南

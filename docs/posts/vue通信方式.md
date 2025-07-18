@@ -1,7 +1,7 @@
 ---
 title: vue通信方式
 date: '2025-07-18'
-category: 未分类
+category: Vue
 tags: []
 ---
 # vue通信方式

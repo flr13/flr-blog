@@ -1,7 +1,7 @@
 ---
 title: mixins
 date: '2025-07-18'
-category: 未分类
+category: Vue
 tags: []
 ---
 # mixins的引入

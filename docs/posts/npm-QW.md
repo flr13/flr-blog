@@ -1,7 +1,7 @@
 ---
 title: npm-QW
 date: '2025-07-18'
-category: 未分类
+category: NPM
 tags: []
 ---
 # 解决 npm ERR! code CERT_HAS_EXPIRED 错误

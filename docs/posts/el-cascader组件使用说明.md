@@ -1,7 +1,7 @@
 ---
 title: el-cascader组件使用说明
 date: '2025-07-18'
-category: 未分类
+category: ui-组件
 tags: []
 ---
 # Element UI Cascader 级联选择器

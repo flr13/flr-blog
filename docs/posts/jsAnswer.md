@@ -1,7 +1,7 @@
 ---
 title: jsAnswer
 date: '2025-07-18'
-category: 未分类
+category: JavaScript
 tags: []
 ---
 答案

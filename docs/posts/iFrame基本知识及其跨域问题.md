@@ -1,7 +1,7 @@
 ---
 title: iFrame基本知识及其跨域问题
 date: '2025-07-18'
-category: 未分类
+category: ui-组件
 tags: []
 ---
 # iframe知识及其跨域问题

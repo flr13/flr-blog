@@ -1,7 +1,7 @@
 ---
 title: dialog
 date: '2025-07-18'
-category: 未分类
+category: ui-组件
 tags: []
 ---
 dialog 封装为子组件

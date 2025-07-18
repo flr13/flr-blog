@@ -1,6 +1,72 @@
 {
   "未分类": [
     {
+      "title": "index",
+      "path": "/posts/index.md"
+    },
+    {
+      "title": "文件上传与JSON数据传输方案",
+      "path": "/posts/文件上传与JSON数据传输方案.md"
+    }
+  ],
+  "JavaScript": [
+    {
+      "title": "asyn  await",
+      "path": "/posts/asyn  await.md"
+    },
+    {
+      "title": "fatch",
+      "path": "/posts/fatch.md"
+    },
+    {
+      "title": "jsAnswer",
+      "path": "/posts/jsAnswer.md"
+    },
+    {
+      "title": "JSDoc",
+      "path": "/posts/JSDoc.md"
+    },
+    {
+      "title": "js运算符及其优先级",
+      "path": "/posts/js运算符及其优先级.md"
+    },
+    {
+      "title": "map - set的Deep-sum",
+      "path": "/posts/map - set的Deep-sum.md"
+    },
+    {
+      "title": "q&a0212",
+      "path": "/posts/q&a0212.md"
+    },
+    {
+      "title": "事件循环（Event LOOP)",
+      "path": "/posts/事件循环（Event LOOP).md"
+    },
+    {
+      "title": "注释说明0513",
+      "path": "/posts/注释说明0513.md"
+    }
+  ],
+  "工具": [
+    {
+      "title": "babel配置",
+      "path": "/posts/babel配置.md"
+    },
+    {
+      "title": "Nginx",
+      "path": "/posts/Nginx.md"
+    },
+    {
+      "title": "UI自动化测试工具",
+      "path": "/posts/uiAutomatedTesting.md"
+    },
+    {
+      "title": "yarn link",
+      "path": "/posts/yarn link.md"
+    }
+  ],
+  "ui-组件": [
+    {
       "title": "cascader属性",
       "path": "/posts/cascader属性.md"
     },
@@ -17,52 +83,12 @@
       "path": "/posts/el-select +Vue .md"
     },
     {
-      "title": "fatch",
-      "path": "/posts/fatch.md"
-    },
-    {
       "title": "iFrame基本知识及其跨域问题",
       "path": "/posts/iFrame基本知识及其跨域问题.md"
     },
     {
-      "title": "jsAnswer",
-      "path": "/posts/jsAnswer.md"
-    },
-    {
-      "title": "Microfront-end",
-      "path": "/posts/Microfront-end.md"
-    },
-    {
-      "title": "mixins",
-      "path": "/posts/mixins.md"
-    },
-    {
-      "title": "npm-QW",
-      "path": "/posts/npm-QW.md"
-    },
-    {
-      "title": "q&a0212",
-      "path": "/posts/q&a0212.md"
-    },
-    {
-      "title": "review",
-      "path": "/posts/review.md"
-    },
-    {
-      "title": "SEE-use",
-      "path": "/posts/SEE-use.md"
-    },
-    {
       "title": "solt-use",
       "path": "/posts/solt-use.md"
-    },
-    {
-      "title": "SSO",
-      "path": "/posts/SSO.md"
-    },
-    {
-      "title": "TypeScript",
-      "path": "/posts/TypeScript.md"
     },
     {
       "title": "vue-Prop-use",
@@ -71,62 +97,6 @@
     {
       "title": "vue_form_add",
       "path": "/posts/vue_form_add.md"
-    },
-    {
-      "title": "vue有关的notes",
-      "path": "/posts/vue有关的notes.md"
-    },
-    {
-      "title": "vue通信方式",
-      "path": "/posts/vue通信方式.md"
-    },
-    {
-      "title": "workSum",
-      "path": "/posts/workSum.md"
-    },
-    {
-      "title": "注释说明0513",
-      "path": "/posts/注释说明0513.md"
-    }
-  ],
-  "JavaScript": [
-    {
-      "title": "asyn  await",
-      "path": "/posts/asyn  await.md"
-    },
-    {
-      "title": "js运算符及其优先级",
-      "path": "/posts/js运算符及其优先级.md"
-    },
-    {
-      "title": "map - set的Deep-sum",
-      "path": "/posts/map - set的Deep-sum.md"
-    },
-    {
-      "title": "事件循环（Event LOOP)",
-      "path": "/posts/事件循环（Event LOOP).md"
-    }
-  ],
-  "工具": [
-    {
-      "title": "babel配置",
-      "path": "/posts/babel配置.md"
-    },
-    {
-      "title": "JSDoc",
-      "path": "/posts/JSDoc.md"
-    },
-    {
-      "title": "Nginx",
-      "path": "/posts/Nginx.md"
-    },
-    {
-      "title": "nvm-use",
-      "path": "/posts/nvm-use.md"
-    },
-    {
-      "title": "yarn link",
-      "path": "/posts/yarn link.md"
     }
   ],
   "CSS": [
@@ -145,6 +115,10 @@
   ],
   "框架": [
     {
+      "title": "Microfront-end",
+      "path": "/posts/Microfront-end.md"
+    },
+    {
       "title": "qiankun",
       "path": "/posts/qiankun.md"
     },
@@ -153,19 +127,65 @@
       "path": "/posts/react.md"
     },
     {
-      "title": "Vue3",
-      "path": "/posts/Vue3.md"
+      "title": "TypeScript",
+      "path": "/posts/TypeScript.md"
     },
     {
-      "title": "vuex 状态管理",
+      "title": "Vue3",
+      "path": "/posts/Vue3.md"
+    }
+  ],
+  "Vue": [
+    {
+      "title": "mixins",
+      "path": "/posts/mixins.md"
+    },
+    {
+      "title": "Vuex 状态管理",
       "path": "/posts/vuex 状态管理.md"
+    },
+    {
+      "title": "vue有关的notes",
+      "path": "/posts/vue有关的notes.md"
     },
     {
       "title": "vue父子组件通信",
       "path": "/posts/vue父子组件通信.md"
+    },
+    {
+      "title": "vue通信方式",
+      "path": "/posts/vue通信方式.md"
+    }
+  ],
+  "NPM": [
+    {
+      "title": "npm-QW",
+      "path": "/posts/npm-QW.md"
+    },
+    {
+      "title": "nvm-use",
+      "path": "/posts/nvm-use.md"
+    }
+  ],
+  "总结": [
+    {
+      "title": "review",
+      "path": "/posts/review.md"
+    },
+    {
+      "title": "workSum",
+      "path": "/posts/workSum.md"
     }
   ],
   "其他": [
+    {
+      "title": "SEE-use",
+      "path": "/posts/SEE-use.md"
+    },
+    {
+      "title": "SSO",
+      "path": "/posts/SSO.md"
+    },
     {
       "title": "web-Http",
       "path": "/posts/web-Http.md"
@@ -173,10 +193,6 @@
     {
       "title": "webSorket",
       "path": "/posts/webSorket.md"
-    },
-    {
-      "title": "文件上传与JSON数据传输方案",
-      "path": "/posts/文件上传与JSON数据传输方案.md"
     },
     {
       "title": "终端常用命令",

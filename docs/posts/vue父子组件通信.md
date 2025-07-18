@@ -1,7 +1,7 @@
 ---
 title: vue父子组件通信
 date: '2025-07-18'
-category: 框架
+category: Vue
 tags: []
 ---
 ## vue父子组件通信

@@ -1,3 +1,9 @@
+---
+title: mixins
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 # mixins的引入
 
 ## 什么是mixins

@@ -1,3 +1,17 @@
+<!--
+ * @Author: 吴莉蓉 wulr@eastcom-sw.com
+ * @Date: 2025-07-17 16:42:29
+ * @LastEditors: 吴莉蓉 wulr@eastcom-sw.com
+ * @LastEditTime: 2025-07-18 10:47:11
+ * @FilePath: \flr-blog\docs\posts\iFrame基本知识及其跨域问题.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+---
+title: iFrame基本知识及其跨域问题
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 # iframe知识及其跨域问题
 
 ###  iframe标签
@@ -59,7 +73,7 @@ https://blog.csdn.net/weixin_44733660/article/details/117048195?ops_request_misc
 
 出于安全考虑，默认在网页中，使用JS发送请求，请求的服务器和当前所在网页的服务器必须一样，**即两个请求地址的 协议、域名、端口必须一致。**
 
-Origin: < scheme > “/” <host> [ “:” < port > ],origin由用于访问它的URL的**scheme（协议）、port（端口）、host（IP或域名**）
+Origin: &lt; scheme &gt; “/” &lt;host&gt; [ “:” &lt; port &gt; ],origin由用于访问它的URL的<strong>scheme（协议）、port（端口）、host（IP或域名</strong>）
 
 ```sh
 协议相同  http https

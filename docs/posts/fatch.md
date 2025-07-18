@@ -1,3 +1,9 @@
+---
+title: fatch
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 ### fatch
 
 fetch API 是用于在网络上获取资源的现代 Web API。以下是 fetch 的基本语法和用法：

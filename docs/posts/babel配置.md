@@ -1,3 +1,9 @@
+---
+title: babel配置
+date: '2025-07-18'
+category: 工具
+tags: []
+---
 ### Babel
 
 ![1703731331700](C:\Users\spurs\AppData\Roaming\Typora\typora-user-images\1703731331700.png)

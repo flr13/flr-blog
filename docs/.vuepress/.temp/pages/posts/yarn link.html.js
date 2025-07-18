@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-2df5c195\",\"path\":\"/posts/yarn%20link.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"yarn link\",\"slug\":\"yarn-link\",\"link\":\"#yarn-link\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"posts/yarn link.md\"}")
+export const data = JSON.parse("{\"key\":\"v-2df5c195\",\"path\":\"/posts/yarn%20link.html\",\"title\":\"yarn link\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"yarn link\",\"date\":\"2025-07-18\",\"category\":\"工具\",\"tags\":[]},\"headers\":[{\"level\":2,\"title\":\"yarn link\",\"slug\":\"yarn-link\",\"link\":\"#yarn-link\",\"children\":[]}],\"git\":{\"updatedTime\":1752743574000,\"contributors\":[{\"name\":\"吴莉蓉\",\"email\":\"wulr@eastcom-sw.com\",\"commits\":1}]},\"filePathRelative\":\"posts/yarn link.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

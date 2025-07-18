@@ -1,90 +1,50 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
+// 将CommonJS的require替换为ESM的import语法
+import * as fs from 'fs';
+import * as path from 'path';
+
+// 读取分类数据
+const categoryDataPath = path.resolve(__dirname, 'category-data.json');
+const categoryData = JSON.parse(fs.readFileSync(categoryDataPath, 'utf8'));
+
+// 生成侧边栏配置
+const generateSidebar = () => {
+  return Object.entries(categoryData).map(([category, posts]) => ({
+    text: category,
+    children: posts.map(post => post.path)
+  }));
+};
+// 生成导航栏配置
+const generateNavbar = () => {
+  return [
+    { text: '首页', link: '/' },
+    { 
+      text: '文章分类', 
+      children: Object.keys(categoryData).map(category => ({
+        text: category,
+        link: `/posts/?category=${category}`
+      }))
+    },
+    { text: '关于', link: '/about/' }
+  ];
+};
 
 export default defineUserConfig({
-  // 网站标题
-  title: 'FLR Blog',
-  // 网站描述
-  description: '这是一个 FLR 博客网站',
-  theme: defaultTheme({
-    // 导航栏配置
-    navbar: [
-      {
-        text: '首页',
-        link: '/'
-      },
-      {
-        text: '文章',
-        children: [
-          {
-            text: '前端react技术',
-            link: '/posts/react/'
-          },
-          {
-            text:'单点登陆',
-            link: '/posts/SSO/'
-          }
-        ]
-      },
-      {
-        text: '关于',
-        link: '/about/'
-      }
-    ],
-    // 侧边栏配置
+   title: '技术博客',
+   theme: defaultTheme({
+    // 添加全局作者配置
+    author: 'flr',
+    contributors: ['flr'],
+    // 添加页面元数据配置
+    pageMeta: {
+      author: true,
+      contributors: true
+    },
+    navbar: generateNavbar(),
+    // 使用动态生成的侧边栏
     sidebar: {
-      '/posts/tech/': [
-        {
-          text: '前端技术',
-          children: [
-            '/posts/tech/frontend/vue.md',
-            '/posts/tech/frontend/react.md'
-          ]
-        },
-        {
-          text: '后端技术',
-          children: [
-            '/posts/tech/backend/nodejs.md',
-            '/posts/tech/backend/python.md'
-          ]
-        }
-      ],
-      '/posts/life/': [
-        {
-          text: '日常记录',
-          children: [
-            '/posts/life/daily/20250710.md',
-            '/posts/life/daily/20250715.md'
-          ]
-        }
-      ],
-      '/about/': [
-        {
-          text: '关于我们',
-          children: [
-            '/about/team.md',
-            '/about/contact.md'
-          ]
-        }
-      ]
-    },
-    // 页脚配置
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025-present FLR Team'
-    },
-    // 编辑链接配置
-    editLink: {
-      pattern: 'https://github.com/your-repo/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页'
-    },
-    // 最后更新时间配置
-    lastUpdated: {
-      text: '最后更新时间'
-    },
-    // 作者配置
-    contributors: {
-      text: '贡献者'
+      '/posts/': generateSidebar()
     }
   })
 })

@@ -1,3 +1,9 @@
+---
+title: js运算符及其优先级
+date: '2025-07-18'
+category: JavaScript
+tags: []
+---
 # js运算符及其优先级
 
 ![img](https://pic4.zhimg.com/v2-140335727c6f021c019e731f49b0ed93_r.jpg) 

@@ -1,3 +1,9 @@
+---
+title: Vue3
+date: '2025-07-18'
+category: 框架
+tags: []
+---
 # [vue3](https://blog.csdn.net/2302_76329106/article/details/139447910)
 
 ### 特点

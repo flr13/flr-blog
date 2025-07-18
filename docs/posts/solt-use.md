@@ -1,3 +1,9 @@
+---
+title: solt-use
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 # solt插槽
 
 ### 什么是[solt](https://cn.vuejs.org/guide/components/slots.html#named-slots)

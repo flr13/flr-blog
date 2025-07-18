@@ -1,3 +1,10 @@
+---
+title: 事件循环（Event LOOP)
+date: '2025-07-18'
+category: JavaScript
+tags: []
+author: 'flr'
+---
 ## 事件循环（Event LOOP)
 
 JavaScript 是单线程的**非阻塞式**的脚本语言

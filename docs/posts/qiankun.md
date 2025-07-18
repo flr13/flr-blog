@@ -1,3 +1,9 @@
+---
+title: qiankun
+date: '2025-07-18'
+category: 框架
+tags: []
+---
 # QIANKUN-TEMPLATE
 
 本项目采用 vue + qiankun 实践微前端落地。

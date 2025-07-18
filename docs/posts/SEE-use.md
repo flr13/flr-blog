@@ -1,3 +1,9 @@
+---
+title: SEE-use
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 根据搜索结果，你提到的“SEE 协议”可能是 **Server-Sent Events (SSE)**。这是一种基于 HTTP 协议的服务器向客户端单向推送实时数据的技术。以下是关于 SSE 的详细信息：
 
 ### SSE（Server-Sent Events）简介

@@ -1,3 +1,9 @@
+---
+title: react
+date: '2025-07-18'
+category: 框架
+tags: []
+---
 1.react 语法
 
 - 生命周期

@@ -1,3 +1,9 @@
+---
+title: vuex 状态管理
+date: '2025-07-18'
+category: 框架
+tags: []
+---
 # vuex 状态管理
 
  vuex中一共有五个状态 State Getter Mutation  Action  Module  

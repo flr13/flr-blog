@@ -1,3 +1,9 @@
+---
+title: dialog
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 dialog 封装为子组件
 
 ```vue

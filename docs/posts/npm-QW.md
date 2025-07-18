@@ -1,3 +1,9 @@
+---
+title: npm-QW
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 # 解决 npm ERR! code CERT_HAS_EXPIRED 错误
 
 在使用 npm 安装 Vue 项目依赖时，可能会遇到 `npm ERR! code CERT_HAS_EXPIRED` 错误。该错误是由于请求淘宝 npm 镜像时，证书已过期导致的。以下是几种解决方法：

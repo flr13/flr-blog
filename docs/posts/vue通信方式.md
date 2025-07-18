@@ -1,3 +1,9 @@
+---
+title: vue通信方式
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 # vue通信方式
 
 1. 父组件向子组件传值（props）

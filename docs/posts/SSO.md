@@ -1,3 +1,9 @@
+---
+title: SSO
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 ##  单点登陆
 
 [SSO](http://www.53bk.com/)，[单一登录](http://www.53bk.com/)（single sign-on），意思是指在多套系统并存的环境下，用户只需登录一次即可访问其他授权的系统 

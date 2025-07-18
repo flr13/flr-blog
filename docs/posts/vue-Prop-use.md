@@ -1,3 +1,9 @@
+---
+title: vue-Prop-use
+date: '2025-07-18'
+category: 未分类
+tags: []
+---
 # vue的Prop用法
 
 #### 简单的父子组件的传值

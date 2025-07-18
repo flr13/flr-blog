@@ -1,3 +1,9 @@
+---
+title: Nginx
+date: '2025-07-18'
+category: 工具
+tags: []
+---
 # Nginx
 
 参考文章  https://www.jb51.net/article/148809.htm

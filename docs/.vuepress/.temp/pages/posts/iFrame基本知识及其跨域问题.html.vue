@@ -1,4 +1,17 @@
-<template><div><h1 id="iframe知识及其跨域问题" tabindex="-1"><a class="header-anchor" href="#iframe知识及其跨域问题" aria-hidden="true">#</a> iframe知识及其跨域问题</h1>
+<template><div><!--
+ * @Author: 吴莉蓉 wulr@eastcom-sw.com
+ * @Date: 2025-07-17 16:42:29
+ * @LastEditors: 吴莉蓉 wulr@eastcom-sw.com
+ * @LastEditTime: 2025-07-18 10:47:11
+ * @FilePath: \flr-blog\docs\posts\iFrame基本知识及其跨域问题.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<hr>
+<h2 id="title-iframe基本知识及其跨域问题date-2025-07-18-category-未分类tags" tabindex="-1"><a class="header-anchor" href="#title-iframe基本知识及其跨域问题date-2025-07-18-category-未分类tags" aria-hidden="true">#</a> title: iFrame基本知识及其跨域问题
+date: '2025-07-18'
+category: 未分类
+tags: []</h2>
+<h1 id="iframe知识及其跨域问题" tabindex="-1"><a class="header-anchor" href="#iframe知识及其跨域问题" aria-hidden="true">#</a> iframe知识及其跨域问题</h1>
 <h3 id="iframe标签" tabindex="-1"><a class="header-anchor" href="#iframe标签" aria-hidden="true">#</a> iframe标签</h3>
 <p>https://blog.csdn.net/weixin_44733660/article/details/117048195?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169424923016800185820005%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169424923016800185820005&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-117048195-null-null.142</p>
 <ol>
@@ -115,7 +128,7 @@ window<span class="token punctuation">.</span>self <span class="token comment">/
 <h5 id="跨域的原因-浏览器的同源策略" tabindex="-1"><a class="header-anchor" href="#跨域的原因-浏览器的同源策略" aria-hidden="true">#</a> 跨域的原因：浏览器的同源策略</h5>
 <h5 id="什么是同源策略呢" tabindex="-1"><a class="header-anchor" href="#什么是同源策略呢" aria-hidden="true">#</a> 什么是同源策略呢？</h5>
 <p>出于安全考虑，默认在网页中，使用JS发送请求，请求的服务器和当前所在网页的服务器必须一样，<strong>即两个请求地址的 协议、域名、端口必须一致。</strong></p>
-<p>Origin: &lt; scheme &gt; “/” <host> [ “:” &lt; port &gt; ],origin由用于访问它的URL的<strong>scheme（协议）、port（端口）、host（IP或域名</strong>）</p>
+<p>Origin: &lt; scheme &gt; “/” &lt;host&gt; [ “:” &lt; port &gt; ],origin由用于访问它的URL的<strong>scheme（协议）、port（端口）、host（IP或域名</strong>）</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>协议相同  http https
 域名相同  www.onlineclass.net
 端口相同  <span class="token number">80</span>  <span class="token number">81</span>

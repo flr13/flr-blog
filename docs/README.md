@@ -24,4 +24,4 @@
 ---
 
 ## 页脚
-&copy; 2025 我的技术博客 版权所有 | 联系邮箱：example@example.com
+&copy; 2025 我的技术博客 版权所有 | 联系邮箱：flr13@qq.com

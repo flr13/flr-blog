@@ -1,3 +1,4 @@
+
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 // 将CommonJS的require替换为ESM的import语法
@@ -16,19 +17,23 @@ const generateSidebar = () => {
   }));
 };
 // 生成导航栏配置
-const generateNavbar = () => {
+function generateNavbar() {
   return [
     { text: '首页', link: '/' },
     { 
       text: '文章分类', 
       children: Object.keys(categoryData).map(category => ({
         text: category,
-        link: `/posts/?category=${category}`
+        link: categoryData[category][0].path || '/'
       }))
     },
-    { text: '关于', link: '/about/' }
+    { text: '关于', link: '/about/' },
+    // 添加友链导航项
+    { text: '友链', link: '/links/' },
+    // 添加GitHub导航项
+    { text: 'GitHub', link: 'https://github.com/flr13/flr-blog' }
   ];
-};
+}
 
 export default defineUserConfig({
   base: '/flr-blog',

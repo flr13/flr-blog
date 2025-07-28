@@ -1,1 +1,0 @@
-import{_ as r,o as t,c as n,a as e,b as o}from"./app-273c6a11.js";const s={};function c(d,a){return t(),n("div",null,a[0]||(a[0]=[e("h1",{id:"文章分类",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#文章分类","aria-hidden":"true"},"#"),o(" 文章分类")],-1),e("p",null,"本页面按分类展示所有文章。",-1)]))}const i=r(s,[["render",c],["__file","index.html.vue"]]);export{i as default};
